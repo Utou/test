@@ -1,0 +1,218 @@
+@charset "utf-8";
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ 
+全デバイス共通とスマートフォン向け
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+
+/*---------------------------------------
+ヘッダー
+---------------------------------------*/
+.logo {
+	margin: 0px;
+	padding: 0px;
+}
+
+.logo a {
+	margin: 0px;
+	padding: 0px;
+}
+/*---------------------------------------
+グローバルナビ
+---------------------------------------*/
+.global_nav {
+	margin: 0px;
+	padding: 0px;
+}
+
+.global_nav li {
+	background-color: #ccc;
+	width: 49.5%;
+	float: left;
+	margin-left: 2px;
+	text-align: center;
+	list-style-type: none;
+	height: 30px;
+	margin-bottom: 2px;
+	font-weight: bold;
+	padding-top: 4px;
+}
+
+.global_nav a {
+	color: #FFF;
+}
+
+.global_nav a:hover {
+	color: #444;
+}
+/*---------------------------------------
+コンテンツ
+---------------------------------------*/
+.watch_title {
+	font-size: 1.9em;
+	font-weight: bold;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 30px;
+}
+
+.bird_item {
+	padding-bottom: 30px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 40px;
+}
+
+.bird_item img {
+	padding: 2px;
+	border: 1px solid #000;
+	border-radius: 20px;
+	width: 100%;
+	margin-bottom: 10px;
+	
+}
+
+.bird_name_title {
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+
+
+
+/*---------------------------------------
+SNSリンク
+---------------------------------------*/
+.sns_link_ul {
+	padding: 0;
+	text-align: center;
+	border-bottom: 1px solid #000;
+}
+
+.sns_link_ul li {
+	display: inline-block;
+	width: 24.%;
+}
+
+.link_menu {
+	border: 1px solid #000;
+	border-radius: 10px;
+	padding: 10px;
+	max-width: 600px;
+	margin: 30px auto 0 auto;
+}
+
+.bird_menu {
+	padding: 0;
+}
+
+.bird_menu li {
+	clear: both;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 10px;
+	list-style-type: none;
+}
+
+.bird_menu img {
+	float: left;
+	padding-right: 10px;
+}
+
+/*---------------------------------------
+NEWS
+---------------------------------------*/
+.news {
+	margin-top: 40px;
+}
+
+.news h2 {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+}
+
+.news_item {
+	padding-bottom: 20px;
+	border-bottom: 1px solid #000;
+	margin-bottom: 30px;
+}
+
+.news_title {
+	font-size: 1.2em;
+	font-weight: bolder;
+}
+
+/*---------------------------------------
+フッター
+---------------------------------------*/
+.footer_bar1 {
+	background-color: #ccc;
+}
+
+.footer_bar2 {
+	color: #FFF;
+	text-align: center;
+	font-size: 10px;
+	background-color: #000;
+	padding-top: 3px;
+}
+
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ 
+小画面向け：768px　～　991px
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+@media only screen and (min-width:768px){
+	.global_nav li {
+		width: 16.4%;
+	}
+}
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ 
+中画面向け：992px　～　1200px
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+@media only screen and (min-width:992px){
+	.global_nav {
+		margin-bottom: 60px;
+	}
+	
+	.bird_item img {
+		margin-bottom: 0px;
+	}
+}
+
+/*_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/ 
+大画面向け：1200px以上
+_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/*/
+@media only screen and (min-width:1200px){
+	.container-fluid {
+		max-width: 1200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
